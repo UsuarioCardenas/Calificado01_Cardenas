@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".Ejercicio01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="horizontal"
+
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="20dp"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="0dp" >
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="7"
+            app:cornerRadius="5dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="8"
+            app:cornerRadius="5dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="0dp" >
+        <View
+            android:layout_weight="1"
+            android:layout_width="8dp"
+            android:backgroundTint="#000000"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="|"
+            app:cornerRadius="5dp"
+            android:textSize="20dp" />
+        <View
+            android:layout_weight="1"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp" >
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="<-"
+            app:cornerRadius="5dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="|"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="->"
+            app:cornerRadius="5dp"
+            android:backgroundTint="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
